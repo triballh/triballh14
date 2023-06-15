@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "SiriusKey",
       SaveKey = true,
       GrabKeyFromSite = true, 
-      Key = "tmoc"
+      Key = "Tmoc"
     }
 })
 
