@@ -25,6 +25,10 @@ e:Button("rejoin",function()
     game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 end)
 
+e:Button("cerrar hub",function()
+    e:DestroyGui()
+end)
+
 d:Button("fates admin",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/triballh/triballh14/main/fates%20admin'),true))()
 end)
