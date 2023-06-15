@@ -20,9 +20,9 @@ local Window = Rayfield:CreateWindow({
       Subtitle = "sistema de key",
       Note = "Join the discord (www.roblox.com/users/365651935/profile)",
       FileName = "SiriusKey",
-      SaveKey = false,
+      SaveKey = true,
       GrabKeyFromSite = true, 
-      Key = "danigay"
+      Key = "Tmoc"
     }
 })
 
