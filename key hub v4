@@ -18,11 +18,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "triballh hub",
       Subtitle = "sistema de key",
-      Note = "Join the discord (www.roblox.com/users/365651935/profile)",
+      Note = "perfil roblox (www.roblox.com/users/365651935/profile)",
       FileName = "SiriusKey",
       SaveKey = true,
       GrabKeyFromSite = true, 
-      Key = "Tmoc"
+      Key = "pene"
     }
 })
 
