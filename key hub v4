@@ -1,0 +1,47 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "triballh hub",
+   LoadingTitle = "triballh hub",
+   LoadingSubtitle = "triballh",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, 
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "TRIBALLH", 
+      RememberJoins = true 
+   },
+   KeySystem = true, 
+   KeySettings = {
+      Title = "triballh hub",
+      Subtitle = "sistema de key",
+      Note = "Join the discord (www.roblox.com/users/365651935/profile)",
+      FileName = "SiriusKey",
+      SaveKey = true,
+      GrabKeyFromSite = true, 
+      Key = "danigay"
+    }
+})
+
+local Tab = Window:CreateTab("abrir hub", 4483362458)
+local Section = Tab:CreateSection("hubs")
+
+local Button = Tab:CreateButton({
+   Name = "triballh hub v4   cobra kai",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/triballh/triballh14/main/triballh%20hub%20v4'))()
+   end,
+})
+
+
+
+local Button = Tab:CreateButton({
+   Name = "quitar hub",
+   Callback = function()
+   Rayfield:Destroy()
+   end,
+})
+
