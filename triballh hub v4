@@ -1,0 +1,409 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("TRIBALL HUB V4")
+
+local b = w:CreateFolder("farm")
+
+local a = w:CreateFolder("habilidades")
+
+local c = w:CreateFolder("teleports")
+
+local d = w:CreateFolder("hubs")
+
+local e = w:CreateFolder("otros")
+
+e:Button("antilag",function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/triballh/triballh14/main/antilag'),true))()
+end)
+e:Button("volar",function()
+    loadstring(game:HttpGet(('https://gist.githubusercontent.com/meozoneYT/bf037dff9f0a70017304ddd67fdcd370/raw/e14e74f425b060df523343cf30b787074eb3c5d2/arceus%2520x%2520fly%25202%2520obflucator'),true))()
+end)
+e:Button("ver chats privs",function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/triballh/triballh14/main/r%20spy"))()
+end)
+e:Button("rejoin",function()
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
+
+d:Button("fates admin",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/triballh/triballh14/main/fates%20admin'),true))()
+end)
+d:Button("hub de bailes",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/UniversalDance-AnimGui.lua'))()
+end)
+d:Button("infinite yield",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+d:Button("fling",function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/triballh/triballh14/main/target%20fling",true))()
+end)
+d:Button("bring",function()
+    loadstring(game:HttpGet(('https://github.com/triballh/triballh14/raw/main/bring'),true))()
+end)
+d:Button("tea hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/triballh/triballh14/main/tea%20hub"))()
+end)
+d:Button("tp jugador",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/tpnm76MC"))()
+end)
+
+
+
+c:Button("saco de boxeo",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(63.732,9.831,68.755))
+end)
+c:Button("miyagi",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-58.3453522, 5.40000296, -1008.66229))
+end)
+
+c:Button("safe",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(87.689,3.3999,49.542))
+end)
+
+c:Button("cobra kai dojo",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(30.7646656, 3.26012921, 40.4424591))
+end)
+
+
+
+
+
+
+
+
+a:Box("velocidad","number",function(s) 
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+a:Box("salto","number",function(s) 
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+a:Box("rango del aura","number",function(s) 
+    _G.HeadSize = s _G.Disabled = true game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 10 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really white") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+end)
+
+a:Button("no cooldown",function()
+   local old
+
+old = hookfunction(wait, newcclosure(function(...)
+   return old()
+end))
+
+local balls
+
+balls= hookfunction(task.wait, newcclosure(function(...)
+   return balls()
+end))
+end)
+
+
+a:Button("anti fling",function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/triballh/triballh14/main/anti%20fling'))()
+end)
+
+
+b:Toggle("fuerza",function(t)
+    shared.toggle = bool
+    farm7 = t  
+    while farm7 do wait()
+	pcall(function()
+local args = {
+    [1] = "Right"
+}
+
+local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+            local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+                 local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+                      local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+
+end )
+end
+end)
+
+b:Toggle("vida",function(t)
+    shared.toggle = bool
+    farm7 = t  
+    while farm7 do wait()
+	pcall(function()
+local args = {
+    [1] = "Right"
+}
+
+local Event = game:GetService("ReplicatedStorage").Remotes.Bench
+Event:FireServer()
+             local Event = game:GetService("ReplicatedStorage").Remotes.Bench
+Event:FireServer()
+                        local Event = game:GetService("ReplicatedStorage").Remotes.Bench
+Event:FireServer()
+                             local Event = game:GetService("ReplicatedStorage").Remotes.Bench
+Event:FireServer()
+                                  local Event = game:GetService("ReplicatedStorage").Remotes.Bench
+Event:FireServer()
+                                      local Event = game:GetService("ReplicatedStorage").Remotes.Bench
+Event:FireServer()
+
+
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer()
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer()
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer()
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer()
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer()
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer()
+
+end )
+end
+end)
+
+
+b:Toggle("pesas",function(t)
+    shared.toggle = bool
+    farm7 = t  
+    while farm7 do wait()
+	pcall(function()
+local args = {
+    [1] = "Right"
+}
+
+local A_1 = "Rep"
+   local A_2 = 1
+   game:GetService("ReplicatedStorage").Remotes.Dumbell:FireServer(A_1, A_2)
+
+end )
+end
+end)
+
+b:Toggle("aura sin stamina",function(t)
+    shared.toggle = bool
+    farm7 = t  
+    while farm7 do wait()
+	pcall(function()
+local args = {
+    [1] = "Right"
+}
+
+ local Event = game:GetService("ReplicatedStorage").Remotes.JumpKick
+Event:FireServer()
+         local Event = game:GetService("ReplicatedStorage").Remotes.JumpKick
+Event:FireServer()
+             local Event = game:GetService("ReplicatedStorage").Remotes.JumpKick
+Event:FireServer()
+                 local Event = game:GetService("ReplicatedStorage").Remotes.JumpKick
+Event:FireServer()
+              
+
+end )
+end
+end)
+
+
+
+
+b:Button("fuerza v2",function()
+    while wait() do
+
+ if getgenv().Kevin == true then
+    end
+    local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+   if getgenv().Kevin == true then
+    end
+    local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+   if getgenv().Kevin == true then
+    end
+    local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+   if getgenv().Kevin == true then
+    end
+end
+end)
+
+
+
+b:Button("vida 1.0",function()
+    getgenv().Kevin = true;
+_G.Kevin = true
+while wait()do
+local A_1 = "Rep()" local A_2 = 3 local A_3 = 3.5 local A_4 = 4.5 local A_5 = 5.5 local A_6 = 454 local A_7 = 454 local A_8 = 454
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+end
+--WINNERS
+--WINNERS
+--WINNERS
+getgenv().Kevin = true;
+_G.Kevin = true
+while wait()do
+local A_1 = "Rep()" local A_2 = 3 local A_3 = 3.5 local A_4 = 4.5 local A_5 = 5.5 local A_6 = 9999 local A_7 = 99999 local A_8 = 999999
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.PushUp:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Remotes.Bench:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+end
+end)
+
+
+b:Button("stamina infinita",function()
+    local hook; hook = hookmetamethod(game, "__index", function(self, key)
+   if not checkcaller() then
+       if tostring(self) == "Stamina" and tostring(key):lower() == 'value' then
+           return math.huge
+       end
+   end
+   return hook(self, key)
+end)
+end)
+
+
+b:Button("anti afk",function()
+    wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(1.76471,1.76471,1.76471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="triballh afk"ca.TextColor3=Color3.new(0,0,0)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.96078,0.96078,0.96078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(1.76471,1.76471,1.76471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="zifisback es gay "
+_b.TextColor3=Color3.new(0,0,0)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(1.76471,1.76471,1.76471)ab.Position=UDim2.new(0,0,0.158377,0)
+ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="estado: listo"
+ab.TextColor3=Color3.new(0,0,0)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
+end)
+
