@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "triballh hub",
    LoadingSubtitle = "triballh",
    ConfigurationSaving = {
-      Enabled = false,
+      Enabled = true,
       FolderName = nil, 
       FileName = "Big Hub"
    },
@@ -20,7 +20,7 @@ local Window = Rayfield:CreateWindow({
       Subtitle = "sistema de key",
       Note = "Join the discord (www.roblox.com/users/365651935/profile)",
       FileName = "SiriusKey",
-      SaveKey = true,
+      SaveKey = false,
       GrabKeyFromSite = true, 
       Key = "danigay"
     }
